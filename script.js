@@ -29,12 +29,12 @@ function trocarCor() {
     var corAtual = window.getComputedStyle(corpo).backgroundImage;
     var cor = 0
   
-    let cor1 = "linear-gradient(339deg, rgb(0, 255, 23), rgb(87, 0, 255))"
-    let cor2 = "linear-gradient(339deg, rgb(87, 0, 255), rgb(0, 255, 23))"
+    let cor1 = "linear-gradient(339deg, rgb(129, 21, 252), rgb(247, 2, 125))";
+    let cor2 = "linear-gradient(339deg, rgb(247, 2, 125), rgb(129, 21, 252))";
 
-    if(corAtual==="linear-gradient(339deg, rgb(0, 255, 23), rgb(87, 0, 255))"){
+    if(corAtual=== cor1){
         cor = cor2
-    }if(corAtual=== "linear-gradient(339deg, rgb(87, 0, 255), rgb(0, 255, 23))"){
+    }if(corAtual=== cor2){
         cor = cor1
     }
     

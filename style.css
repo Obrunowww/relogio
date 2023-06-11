@@ -5,8 +5,8 @@
     font-family: sans-serif;
 }
 body{
-    background: rgb(0,255,23);
-    background-image: linear-gradient(339deg, rgba(0,255,23,1), rgba(87,0,255,1));
+
+    background-image: linear-gradient(339deg, rgb(129, 21, 252),rgb(247, 2, 125));
     height: 100vh;
     /* display: flex; 
     align-items: center;
@@ -69,7 +69,7 @@ span{
     transition: all 0.9s;
     cursor: pointer;
     scale: 1.19;
-    color: limegreen
+    color: rgb(129, 21, 252)
    
 }
 button{
@@ -90,6 +90,6 @@ button:hover{
     transition: all 0.9s;
     cursor: pointer;
     scale: 1.19;
-    color: limegreen;
+    color: rgb(129, 21, 252);
     margin: 10px;
 }
